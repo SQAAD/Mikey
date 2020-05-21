@@ -1,0 +1,174 @@
+/* UNIVERSAL STYLES KAI ICONS */
+
+@font-face{
+  font-family:'oswald';
+  src:url(./oswald/static/oswald-bold.ttf) format('truetype');
+}
+
+
+h1{
+  font-family:courier;
+  color:green;
+}
+
+
+.kontainer{
+  border:.5em groove hsla(0,0%,0%,1);
+  display:flex;
+  width:200px;
+  height:63px;
+  border-radius:.3em/* flexible unit */;
+  margin:auto;
+  margin:3em auto;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  overflow:hidden;
+
+}
+
+
+
+
+.container{
+  border:.3em solid hsla(0,100%,50%,1);
+  background-color:hsla(0,100%,50%,1);
+  width:50%;
+  display:flex;
+
+  left:0;
+
+
+
+  transition-property:left;
+  transition-duration:10s;
+  transition-timing-function:ease-in-out;
+  transition-delay:10ms;
+
+
+
+
+  }
+
+
+
+
+  .kontainer:hover .container{
+    left:-20em;
+    position:relative;
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.container h1{
+  text-transform:uppercase;
+  display:flex;
+
+  align-items:center;
+  font-size:8px;
+  font-weight:bold;
+
+  text-align:center;
+
+  letter-spacing:2px;
+
+  line-height:19px;
+
+  font-family:'Oswald';
+
+
+}
+
+
+.icon-container{
+  border:.3em solid hsla(240,100%,50%,1);
+  background-color:hsla(240,100%,50%,1);
+  width:50%;
+
+  display:flex;
+  justify-content:center;
+
+  right:0;
+
+  height:100%;
+
+
+
+   position:absolute;
+
+
+  transition-property:width;
+
+  transition-duration:2s;
+
+  transition-timing-function:ease-in;
+
+  transition-delay:1s;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+.kontainer:hover .icon-container{
+  width:100%;
+  position:absolute;
+  right:0;
+  height:100%;
+
+  cursor:pointer;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.icon-container i{
+
+}
